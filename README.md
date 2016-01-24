@@ -19,3 +19,6 @@ aptitude full-upgrade -y
 purge-old-kernels -y
 apt-get autoremove -y
 ```
+
+
+If this computer does not run 24/7, install anacron to make sure the `cron.monthly` scripts get run.
